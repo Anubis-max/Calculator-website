@@ -95,7 +95,7 @@ function appendDot() { // function for adding '.'
     if (['+', '-', '/', '*', '%', 'x'].includes(char)) {
         if (!second_number.includes('.')) {
             if (second_number === "") {
-                second_number = "0."; // Dodaj 0 przed kropką, jeśli pole jest puste
+                second_number = "0."; 
             } else {
                 second_number += '.';
             }
@@ -104,7 +104,7 @@ function appendDot() { // function for adding '.'
     } else {
         if (!first_number.includes('.')) {
             if (first_number === "") {
-                first_number = "0."; // Dodaj 0 przed kropką, jeśli pole jest puste
+                first_number = "0."; 
             } else {
                 first_number += '.';
             }
