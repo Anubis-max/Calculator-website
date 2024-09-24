@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="screen">
+                <div class="screen-child">
+                    <p id="screen"></p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="buttons-child2" onclick="Char('%')">%</button>
+                <button class="buttons-child2" onclick="Char('√')">√</button>
+                <button class="buttons-child2" onclick="CEclear()">CE</button>
+                <button class="buttons-child3"onclick="Cclear()">C</button>
+                <button class="buttons-child" onclick="Number('7')">7</button>
+                <button class="buttons-child" onclick="Number('8')">8</button>
+                <button class="buttons-child" onclick="Number('9')">9</button>
+                <button class="buttons-child4" onclick="Char('-')">-</button>
+                <button class="buttons-child" onclick="Number('4')">4</button>
+                <button class="buttons-child" onclick="Number('5')">5</button>
+                <button class="buttons-child" onclick="Number('6')">6</button>
+                <button class="buttons-child5" onclick="Char('/')">/</button>
+                <button class="buttons-child" onclick="Number('1')">1</button>
+                <button class="buttons-child" onclick="Number('2')">2</button>
+                <button class="buttons-child" onclick="Number('3')">3</button>
+                <button class="buttons-child6" onclick="Char('x')">x</button>
+                <button class="buttons-child" onclick="appendDot()">.</button>
+                <button class="buttons-child" onclick="Number('0')">0</button>
+                <button class="buttons-child2" onclick="count()">=</button>
+                <button class="buttons-child7" onclick="Char('+')">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
